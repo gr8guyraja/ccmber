@@ -1,0 +1,20 @@
+{
+  "name": "pupp",
+  "version": "1.0.0",
+  "description": "Automation as service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "Raj",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "puppeteer": "^5.2.1"
+  }
+}
